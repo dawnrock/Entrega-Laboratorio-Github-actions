@@ -29,4 +29,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy -- -r git@github.com:dawnrock/Entrega-Laboratorio-Github-actions.git
+        run: npm run deploy -- -r git@github.com:dawnrock/entrega-laboratorio-github-actions.git
