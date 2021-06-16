@@ -12,7 +12,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
         with:
-          repository: '${{github.dawnrock/entrega-laboratorio-github-actions.git/gh-pages-auto}}'
+          repository: '${{github.entrega-laboratorio-github-actions.git/gh-pages-auto}}'
 
       - name: Use SSH key
         run: |
