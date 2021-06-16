@@ -32,4 +32,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy -- -r git@github.com:dawnrock/entrega-laboratorio-github-actions.git
+        run: npm run deploy -- git@github.com:dawnrock/entrega-laboratorio-github-actions.git
