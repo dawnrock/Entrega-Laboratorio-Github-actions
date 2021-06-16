@@ -3,7 +3,7 @@ name: Continuos Deployment workflow
 on:
   push:
     branches:
-      -  gh-pages-auto
+      -  master
 
 jobs:
  cd:
