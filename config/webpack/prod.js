@@ -16,7 +16,7 @@ module.exports = merge(base, {
         loader: 'file-loader',
         options: {
           name: './images/[name].[hash].[ext]',
-        }
+        },
       }
     ]
   },
